@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/star-tracker/static/css/main.073c9b0a.css",
+    "main.js": "/star-tracker/static/js/main.f1302dba.js",
+    "static/js/787.6a84d914.chunk.js": "/star-tracker/static/js/787.6a84d914.chunk.js",
+    "static/media/logo.svg": "/star-tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/star-tracker/index.html",
+    "main.073c9b0a.css.map": "/star-tracker/static/css/main.073c9b0a.css.map",
+    "main.f1302dba.js.map": "/star-tracker/static/js/main.f1302dba.js.map",
+    "787.6a84d914.chunk.js.map": "/star-tracker/static/js/787.6a84d914.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f1302dba.js"
+  ]
+}
