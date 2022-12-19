@@ -1,15 +1,22 @@
 import { Image, Modal } from "@mantine/core";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Star.css";
 import JSConfetti from "js-confetti";
 
 interface StarProps {
   description: string;
   date: Date;
+  uid: string;
 }
 
-function Star({ description, date }: StarProps) {
+function Star({ description, date, uid }: StarProps) {
   const [opened, setOpened] = useState(false);
+
+  useEffect(() => {
+    if (opened) {
+      localStorage.setItem(uid, "true");
+    }
+  }, [opened, uid]);
 
   const jsConfetti = new JSConfetti();
 
@@ -34,7 +41,8 @@ function Star({ description, date }: StarProps) {
           jsConfetti.addConfetti({ emojis: ["✨", "💫", "⭐️", "🌟"] });
         }}
         className={
-          Math.abs(date.getMonth() - new Date().getMonth()) < 1
+          Math.abs(date.getMonth() - new Date().getMonth()) < 1 &&
+          !localStorage.getItem(uid)
             ? "animate__animated animate__wobble animate__infinite star-image"
             : "star-image"
         }

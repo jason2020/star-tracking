@@ -51,6 +51,7 @@ const useStyles = createStyles((theme) => ({
 interface Stars {
   description: string;
   date: Date;
+  uid: string;
 }
 
 interface RowData {
@@ -185,7 +186,12 @@ export function StarTable({ data }: TableSortProps) {
       <td>{row.name}</td>
       <td>
         {row.stars.map((star, index) => (
-          <Star key={index} description={star.description} date={star.date} />
+          <Star
+            key={index}
+            description={star.description}
+            date={star.date}
+            uid={star.uid}
+          />
         ))}
       </td>
     </tr>
