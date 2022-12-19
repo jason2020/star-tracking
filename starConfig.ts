@@ -74,7 +74,7 @@ function parserSetup() {
 function addNewStars(starData, date, people, message, numberOfStars) {
   const newStar = {
     date: date,
-    message: message,
+    description: message,
     uid: Math.random().toString(36).substring(2, 15),
   };
 
