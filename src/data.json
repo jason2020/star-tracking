@@ -1,36 +1,197 @@
 {
-    "Fall 2022": [
+  "Fall 2022": [
+    {
+      "name": "Cami",
+      "stars": [
         {
-            "name":"Cami",
-        "stars":[
-            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-            {"description":"Probably something about 35L","date":"2022-12-17T10:02:05.570Z"},
-            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-            {"description":"Probably something about 35L","date":"2022-12-17T10:02:05.570Z"},
-            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-            {"description":"Probably something about 35L","date":"2022-12-17T10:02:05.570Z"}
-        ],
-        "ranking": "1"
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
         },
         {
-            "name":"Ollie",
-            "stars":[
-                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-                {"description":"Probably something about 35L","date":"2022-12-17T10:02:05.570Z"},
-                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-                {"description":"Probably something about 35L","date":"2022-12-17T10:02:05.570Z"},
-                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
-                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"}
-            ],
-            "ranking": "2"
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-12-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-12-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-12-17T10:02:05.570Z"
         }
-    ]
+      ],
+      "ranking": "1"
+    },
+    {
+      "name": "Ollie",
+      "stars": [
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-12-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-12-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        },
+        {
+          "description": "Probably something about 35L",
+          "date": "2022-08-17T10:02:05.570Z"
+        }
+      ],
+      "ranking": "2"
+    }
+  ],
+  "Winter 2022": [
+    {
+      "name": "Sanjit",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "message": "Finishing Survey early!",
+          "uid": "t9ai29sh8g7"
+        }
+      ],
+      "ranking": 1
+    },
+    {
+      "name": "Jono",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "message": "Finishing Survey early!",
+          "uid": "37r4rkafe2o"
+        }
+      ],
+      "ranking": 1
+    },
+    {
+      "name": "Jonah",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "message": "Finishing Survey early!",
+          "uid": "jhffyhzci5g"
+        }
+      ],
+      "ranking": 1
+    },
+    {
+      "name": "Deborah",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "message": "Finishing Survey early!",
+          "uid": "o30z01bqeaa"
+        }
+      ],
+      "ranking": 1
+    },
+    {
+      "name": "Shovanne",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "message": "Finishing Survey early!",
+          "uid": "8v9cw8i49je"
+        }
+      ],
+      "ranking": 1
+    },
+    {
+      "name": "Katherine",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "message": "Finishing Survey early!",
+          "uid": "bp37h1z7a"
+        }
+      ],
+      "ranking": 1
+    },
+    {
+      "name": "Justin",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "message": "Finishing Survey early!",
+          "uid": "3jcc8cppqqk"
+        }
+      ],
+      "ranking": 1
+    },
+    {
+      "name": "Ollie",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "message": "Finishing Survey early!",
+          "uid": "mdy2n3b2mvi"
+        }
+      ],
+      "ranking": 1
+    },
+    {
+      "name": "Sonav",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "message": "Finishing Survey early!",
+          "uid": "3axursqxmgw"
+        }
+      ],
+      "ranking": 1
+    }
+  ]
 }

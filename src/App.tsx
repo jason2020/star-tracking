@@ -2,7 +2,7 @@ import "./App.css";
 import { MantineProvider } from "@mantine/styles";
 import { StarTable } from "./components/StarTable";
 import "animate.css";
-import { forwardRef, useEffect, useMemo, useState } from "react";
+import { forwardRef, useEffect, useState } from "react";
 import { Avatar, Group, Select, Text } from "@mantine/core";
 
 function App() {
