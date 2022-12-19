@@ -1,4 +1,10 @@
 .modal {
-    height: 30vh;
     margin-top: 30vh;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 2vw;
+}
+
+.star-image:hover{
+    cursor: pointer;
 }

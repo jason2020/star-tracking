@@ -17,6 +17,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "animate.css": "^4.1.1",
+    "fs": "^0.0.1-security",
     "js-confetti": "^0.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

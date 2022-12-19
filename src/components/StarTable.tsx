@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   createStyles,
   Table,
@@ -10,7 +10,6 @@ import {
   TextInput,
   MantineProvider,
 } from "@mantine/core";
-import { keys } from "@mantine/utils";
 import {
   IconSelector,
   IconChevronDown,
@@ -22,6 +21,12 @@ import Star from "./Star";
 const useStyles = createStyles((theme) => ({
   th: {
     padding: "0 !important",
+    width: "auto",
+  },
+
+  thinTh: {
+    padding: "0 !important",
+    width: "15%",
   },
 
   control: {
@@ -51,6 +56,7 @@ interface Stars {
 interface RowData {
   name: string;
   stars: Stars[];
+  ranking: string;
 }
 
 interface TableSortProps {
@@ -62,10 +68,27 @@ interface ThProps {
   reversed: boolean;
   sorted: boolean;
   onSort(): void;
+  normalWidth: boolean;
 }
 
-function Th({ children, reversed, sorted, onSort }: ThProps) {
+function Th({ children, reversed, sorted, onSort, normalWidth }: ThProps) {
   const { classes } = useStyles();
+  const [width, setWidth] = useState(0);
+
+  useEffect(() => {
+    function handleResize() {
+      setWidth(window.innerWidth);
+    }
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [setWidth]);
+
   const Icon = sorted
     ? reversed
       ? IconChevronUp
@@ -77,7 +100,7 @@ function Th({ children, reversed, sorted, onSort }: ThProps) {
         fontFamily: "Press Start 2P",
       }}
     >
-      <th className={classes.th}>
+      <th className={normalWidth || width < 700 ? classes.th : classes.thinTh}>
         <UnstyledButton onClick={onSort} className={classes.control}>
           <Group position="apart">
             <Text weight={500} size="sm">
@@ -130,6 +153,12 @@ function sortData(
 }
 
 export function StarTable({ data }: TableSortProps) {
+  useEffect(() => {
+    setSortedData(
+      sortData(data, { sortBy, reversed: reverseSortDirection, search })
+    );
+  }, [data]);
+
   const [search, setSearch] = useState("");
   const [sortedData, setSortedData] = useState(data);
   const [sortBy, setSortBy] = useState<keyof RowData | null>(null);
@@ -152,10 +181,11 @@ export function StarTable({ data }: TableSortProps) {
 
   const rows = sortedData.map((row) => (
     <tr key={row.name}>
+      <td>{row.ranking}</td>
       <td>{row.name}</td>
       <td>
         {row.stars.map((star, index) => (
-          <Star key={index} description={star.description} />
+          <Star key={index} description={star.description} date={star.date} />
         ))}
       </td>
     </tr>
@@ -164,7 +194,7 @@ export function StarTable({ data }: TableSortProps) {
     <ScrollArea>
       <TextInput
         placeholder="Name"
-        mb="md"
+        size="md"
         icon={<IconSearch size={16} stroke={1.5} />}
         value={search}
         onChange={handleSearchChange}
@@ -174,13 +204,23 @@ export function StarTable({ data }: TableSortProps) {
         horizontalSpacing="md"
         verticalSpacing="xs"
         sx={{ tableLayout: "fixed" }}
+        highlightOnHover
       >
         <thead>
           <tr>
             <Th
+              sorted={sortBy === "ranking"}
+              reversed={reverseSortDirection}
+              onSort={() => setSorting("ranking")}
+              normalWidth={false}
+            >
+              Ranking
+            </Th>
+            <Th
               sorted={sortBy === "name"}
               reversed={reverseSortDirection}
               onSort={() => setSorting("name")}
+              normalWidth={true}
             >
               Name
             </Th>
@@ -188,13 +228,14 @@ export function StarTable({ data }: TableSortProps) {
               sorted={sortBy === "stars"}
               reversed={reverseSortDirection}
               onSort={() => setSorting("stars")}
+              normalWidth={true}
             >
               Stars
             </Th>
           </tr>
         </thead>
         <tbody>
-          {rows.length > 0 ? (
+          {rows.length > 0 || !data[0] ? (
             rows
           ) : (
             <tr>

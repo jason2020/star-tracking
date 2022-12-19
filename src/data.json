@@ -1,0 +1,36 @@
+{
+    "Fall 2022": [
+        {
+            "name":"Cami",
+        "stars":[
+            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+            {"description":"Probably something about 35L","date":"2022-12-17T10:02:05.570Z"},
+            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+            {"description":"Probably something about 35L","date":"2022-12-17T10:02:05.570Z"},
+            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+            {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+            {"description":"Probably something about 35L","date":"2022-12-17T10:02:05.570Z"}
+        ],
+        "ranking": "1"
+        },
+        {
+            "name":"Ollie",
+            "stars":[
+                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+                {"description":"Probably something about 35L","date":"2022-12-17T10:02:05.570Z"},
+                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+                {"description":"Probably something about 35L","date":"2022-12-17T10:02:05.570Z"},
+                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"},
+                {"description":"Probably something about 35L","date":"2022-08-17T10:02:05.570Z"}
+            ],
+            "ranking": "2"
+        }
+    ]
+}
