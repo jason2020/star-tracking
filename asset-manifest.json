@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/star-tracking/static/css/main.22562bc8.css",
-    "main.js": "/star-tracking/static/js/main.1f0cd8a7.js",
+    "main.js": "/star-tracking/static/js/main.04db5008.js",
     "static/js/787.6a84d914.chunk.js": "/star-tracking/static/js/787.6a84d914.chunk.js",
     "static/media/PressStart2P-Regular.ttf": "/star-tracking/static/media/PressStart2P-Regular.21503c6a5385ab41dde9.ttf",
     "index.html": "/star-tracking/index.html",
     "main.22562bc8.css.map": "/star-tracking/static/css/main.22562bc8.css.map",
-    "main.1f0cd8a7.js.map": "/star-tracking/static/js/main.1f0cd8a7.js.map",
+    "main.04db5008.js.map": "/star-tracking/static/js/main.04db5008.js.map",
     "787.6a84d914.chunk.js.map": "/star-tracking/static/js/787.6a84d914.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22562bc8.css",
-    "static/js/main.1f0cd8a7.js"
+    "static/js/main.04db5008.js"
   ]
 }
