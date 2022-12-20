@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/star-tracking/static/css/main.22562bc8.css",
-    "main.js": "/star-tracking/static/js/main.04db5008.js",
+    "main.css": "/star-tracking/static/css/main.4c46c657.css",
+    "main.js": "/star-tracking/static/js/main.a7c49efa.js",
     "static/js/787.6a84d914.chunk.js": "/star-tracking/static/js/787.6a84d914.chunk.js",
     "static/media/PressStart2P-Regular.ttf": "/star-tracking/static/media/PressStart2P-Regular.21503c6a5385ab41dde9.ttf",
+    "static/media/winter2022.jpg": "/star-tracking/static/media/winter2022.7075189afbdd09f11d5f.jpg",
+    "static/media/pressstart2p-regular-webfont.woff": "/star-tracking/static/media/pressstart2p-regular-webfont.6fdb5145766b71104b4d.woff",
+    "static/media/star.png": "/star-tracking/static/media/star.a1b3cf94f45550d28469.png",
+    "static/media/pressstart2p-regular-webfont.woff2": "/star-tracking/static/media/pressstart2p-regular-webfont.8b36ee3fde5cd7436747.woff2",
     "index.html": "/star-tracking/index.html",
-    "main.22562bc8.css.map": "/star-tracking/static/css/main.22562bc8.css.map",
-    "main.04db5008.js.map": "/star-tracking/static/js/main.04db5008.js.map",
+    "main.4c46c657.css.map": "/star-tracking/static/css/main.4c46c657.css.map",
+    "main.a7c49efa.js.map": "/star-tracking/static/js/main.a7c49efa.js.map",
     "787.6a84d914.chunk.js.map": "/star-tracking/static/js/787.6a84d914.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22562bc8.css",
-    "static/js/main.04db5008.js"
+    "static/css/main.4c46c657.css",
+    "static/js/main.a7c49efa.js"
   ]
 }
