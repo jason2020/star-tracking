@@ -34,7 +34,7 @@ function Star({ description, date, uid }: StarProps) {
       </Modal>
       <Image
         style={{ width: "25px", height: "25px" }}
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/1024px-Gold_Star.svg.png"
+        src={require("./../assets/star.png")}
         alt="star"
         onClick={() => {
           setOpened(true);

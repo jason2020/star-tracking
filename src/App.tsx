@@ -34,16 +34,14 @@ function App() {
 
   const selectData = [
     {
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO9EzW_g7aEYznaRebPI75ut5dzKwqj5PQTw&usqp=CAU",
+      image: require("./assets/fall2022.png"),
       label: "Fall 2022",
       value: "Fall 2022",
       description: "Noms Q1",
     },
 
     {
-      image:
-        "https://static.vecteezy.com/system/resources/previews/004/228/713/non_2x/snowflake-icon-christmas-and-winter-traditional-symbol-for-logo-print-sticker-emblem-greeting-and-invitation-card-design-and-decoration-vector.jpg",
+      image: require("./assets/winter2022.jpg"),
       label: "Winter 2022",
       value: "Winter 2022",
       description: "Noms Q2",
@@ -102,25 +100,12 @@ function App() {
               placeholder="Pick one"
               itemComponent={SelectItem}
               data={selectData}
-              searchable
-              clearable
+              allowDeselect={false}
               size="sm"
               maxDropdownHeight={400}
               nothingFound="Nobody here"
               value={selectedQuarter}
               onChange={setSelectedQuarter}
-              filter={(value, item) => {
-                if (!item.label) return false;
-
-                return (
-                  item.label
-                    .toLowerCase()
-                    .includes(value.toLowerCase().trim()) ||
-                  item.description
-                    .toLowerCase()
-                    .includes(value.toLowerCase().trim())
-                );
-              }}
             />
           </header>
           <StarTable data={starData} />
