@@ -22,13 +22,19 @@ function Star({ description, date, uid }: StarProps) {
 
   return (
     <div style={{ display: "inline-block" }}>
-      <Modal className="modal" opened={opened} onClose={() => setOpened(false)}>
+      <Modal
+        centered
+        size={"md"}
+        opened={opened}
+        onClose={() => setOpened(false)}
+      >
         <Image
           style={{ width: "80px", height: "80px", margin: "-4vh auto" }}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/1024px-Gold_Star.svg.png"
           alt="star"
           className="animate__animated animate__rotateIn"
         />
+        <br />
         <p style={{ marginTop: "6vh" }}>{date.toLocaleDateString()}</p>
         <p>{description}</p>
       </Modal>
