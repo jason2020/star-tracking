@@ -79,7 +79,7 @@ function App() {
       <div className="App">
         <div className="content">
           <header
-            className="animate__animated animate__bounce App-header"
+            className="animate__animated animate__bounce App-header animate__slow animate__delay-0.5s"
             style={{
               position: "relative",
               minHeight: "100px",
