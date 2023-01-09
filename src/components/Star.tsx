@@ -9,6 +9,18 @@ interface StarProps {
   uid: string;
 }
 
+// const jsConfetti = new JSConfetti();
+
+// https://stackoverflow.com/questions/3224834/get-difference-between-2-dates-in-javascript
+function dateDiffInDays(a: Date, b: Date): number {
+  const _MS_PER_DAY = 1000 * 60 * 60 * 24;
+  // Discard the time and time-zone information.
+  const utc1 = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
+  const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
+
+  return Math.floor((utc2 - utc1) / _MS_PER_DAY);
+}
+
 function Star({ description, date, uid }: StarProps) {
   const [opened, setOpened] = useState(false);
 
@@ -22,6 +34,21 @@ function Star({ description, date, uid }: StarProps) {
 
   return (
     <div style={{ display: "inline-block" }}>
+      <Image
+        style={{ width: "25px", height: "25px" }}
+        src={require("./../assets/star.png")}
+        alt="star"
+        onClick={() => {
+          localStorage.setItem(uid, "true");
+          setOpened(true);
+          jsConfetti.addConfetti({ emojis: ["✨", "💫", "⭐️", "🌟"] });
+        }}
+        className={
+          dateDiffInDays(date, new Date()) < 31 && !localStorage.getItem(uid)
+            ? "animate__animated animate__wobble animate__infinite star-image"
+            : "star-image"
+        }
+      />
       <Modal
         centered
         size={"md"}
