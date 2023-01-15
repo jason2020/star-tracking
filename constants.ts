@@ -20,7 +20,7 @@ const constants: Constants = {
     "Shovanne",
     "Sonav",
   ],
-  currQuarter: "Winter 2022",
+  currQuarter: "Winter 2023",
 };
 
 module.exports = constants;

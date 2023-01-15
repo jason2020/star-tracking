@@ -7,7 +7,7 @@ import { Avatar, Group, Select, Text } from "@mantine/core";
 
 function App() {
   const [selectedQuarter, setSelectedQuarter] = useState<string | null>(
-    "Winter 2022"
+    "Winter 2023"
   );
   const [starData, setStarData] = useState<any>([]);
   const currDate = new Date();
@@ -41,9 +41,9 @@ function App() {
     },
 
     {
-      image: require("./assets/winter2022.jpg"),
-      label: "Winter 2022",
-      value: "Winter 2022",
+      image: require("./assets/winter2023.jpg"),
+      label: "Winter 2023",
+      value: "Winter 2023",
       description: "Noms Q2",
     },
   ];

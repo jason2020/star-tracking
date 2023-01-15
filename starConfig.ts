@@ -84,10 +84,10 @@ function addNewStars(starData, date, people, message, numberOfStars) {
       throw new Error("Person is not a Noms member!");
     }
 
-    let personIndex = starData.find((data) => data.name === name);
+    let personIndex = starData.findIndex((data) => data.name === name);
     let num = numberOfStars;
 
-    if (!personIndex) {
+    if (personIndex === -1) {
       newStar.uid = Math.random().toString(36).substring(2, 15);
       starData.push({
         name: name,
@@ -125,7 +125,7 @@ function adjustRanking(starData) {
 function deployChangesToGhPages() {
   const { exec } = require("child_process");
 
-  exec("yarn deploy -- -m 'Updating Star Count'", (error, stdout, stderr) => {
+  exec("yarn deploy -m 'Updating Star Count'", (error, stdout, stderr) => {
     if (error) {
       console.log(`error: ${error.message}`);
       return;
