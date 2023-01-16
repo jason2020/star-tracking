@@ -108,14 +108,11 @@ function addNewStars(starData, date, people, message, numberOfStars) {
 
 function adjustRanking(starData) {
   const sortedData = starData.sort((a, b) => b.stars.length - a.stars.length);
-
   let currRank = 1;
+
   for (let i = 0; i < sortedData.length; i++) {
-    if (
-      i < sortedData.length - 1 &&
-      sortedData[i].stars.length !== sortedData[i + 1].stars.length
-    ) {
-      currRank++;
+    if (i > 0 && sortedData[i].stars.length < sortedData[i - 1].stars.length) {
+      currRank = i + 1;
     }
     sortedData[i].ranking = currRank;
   }
