@@ -127,7 +127,7 @@
           "description": "Uploading your schedules early! Tysm!",
           "uid": "ntqti2revba"
         },
-         {
+        {
           "date": "1/13/2023",
           "description": "Amazing photo and editing. Jesus's second coming",
           "uid": "jdt0gq3k7x"
@@ -141,54 +141,6 @@
       "ranking": 1
     },
     {
-      "name": "Shovanne",
-      "stars": [
-        {
-          "date": "12/18/2022",
-          "description": "Finishing Survey early!",
-          "uid": "2d3zcmykobf"
-        },
-        {
-          "date": "1/15/2023",
-          "description": "Study session between Shovanne and Ollie",
-          "uid": "ofmbpw03f4"
-        }
-      ],
-      "ranking": 2
-    },
-    {
-      "name": "Sanjit",
-      "stars": [
-        {
-          "date": "12/18/2022",
-          "description": "Finishing Survey early!",
-          "uid": "ib8vygavp7o"
-        },
-        {
-          "date": "1/15/2023",
-          "description": "Meetfresh with Hema and Sanjit!",
-          "uid": "9ynmhlmmeng"
-        }
-      ],
-      "ranking": 2
-    },
-    {
-      "name": "Jono",
-      "stars": [
-        {
-          "date": "12/18/2022",
-          "description": "Finishing Survey early!",
-          "uid": "mlvxlgjymd"
-        },
-        {
-          "date": "1/15/2023",
-          "description": "Meeting MVP, stellar climbing!",
-          "uid": "tc81ict9o0p"
-        }
-      ],
-      "ranking": 2
-    },
-    {
       "name": "Jonah",
       "stars": [
         {
@@ -200,70 +152,11 @@
           "date": "12/23/2022",
           "description": "Uploading your schedules early! Tysm!",
           "uid": "6g1egczy5s5"
-        }
-      ],
-      "ranking": 2
-    },
-    {
-      "name": "Deborah",
-      "stars": [
-        {
-          "date": "12/18/2022",
-          "description": "Finishing Survey early!",
-          "uid": "0a2wjg1rt8is"
         },
-        {
-          "date": "12/23/2022",
-          "description": "Uploading your schedules early! Tysm!",
-          "uid": "9y0ukm4w57"
-        }
-      ],
-      "ranking": 2
-    },
-    {
-      "name": "Katherine",
-      "stars": [
-        {
-          "date": "12/18/2022",
-          "description": "Finishing Survey early!",
-          "uid": "vtd1ljpnh4"
-        },
-        {
-          "date": "12/24/2022",
-          "description": "Uploading your schedules early! Tysm!",
-          "uid": "mckhx24c9i"
-        }
-      ],
-      "ranking": 2
-    },
-    {
-      "name": "Jason",
-      "stars": [
-        {
-          "date": "12/19/2022",
-          "description": "Due to popular demand for completing website",
-          "uid": "40kqnzdgo06"
-        },
-        {
-          "date": "12/24/2022",
-          "description": "Uploading your schedules early! Tysm!",
-          "uid": "ngbf9yjdzm"
-        }
-      ],
-      "ranking": 2
-    },
-    {
-      "name": "Hema",
-      "stars": [
         {
           "date": "1/15/2023",
-          "description": "Meetfresh with Hema and Sanjit!",
-          "uid": "a1ynvo0izrt"
-        },
-        {
-          "date": "12/24/2022",
-          "description": "Uploading your schedules early! Tysm!",
-          "uid": "hydlikyjadb"
+          "description": "Ty for the textbook, very helpful",
+          "uid": "tuwqh83zrn"
         }
       ],
       "ranking": 2
@@ -280,9 +173,131 @@
           "date": "1/3/2023",
           "description": "Figuring out Noms scheduling. Tricky tetris.",
           "uid": "9dy5kdsu4l8"
+        },
+        {
+          "date": "1/17/2023",
+          "description": "Scheduling EB meeting. Tetris 2: Electric Boogaloo",
+          "uid": "iwb3kv679fq"
         }
       ],
       "ranking": 2
+    },
+    {
+      "name": "Jason",
+      "stars": [
+         {
+          "date": "12/18/2022",
+          "description": "Finishing Survey early!",
+          "uid": "vte1ljpnh9"
+        },
+        {
+          "date": "12/19/2022",
+          "description": "Due to popular demand for completing website",
+          "uid": "40kqnzdgo06"
+        },
+        {
+          "date": "12/24/2022",
+          "description": "Uploading your schedules early! Tysm!",
+          "uid": "ngbf9yjdzm"
+        }
+      ],
+      "ranking": 2
+    },
+    {
+      "name": "Shovanne",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "description": "Finishing Survey early!",
+          "uid": "2d3zcmykobf"
+        },
+        {
+          "date": "1/15/2023",
+          "description": "Study session between Shovanne and Ollie",
+          "uid": "ofmbpw03f4"
+        }
+      ],
+      "ranking": 5
+    },
+    {
+      "name": "Sanjit",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "description": "Finishing Survey early!",
+          "uid": "ib8vygavp7o"
+        },
+        {
+          "date": "1/15/2023",
+          "description": "Meetfresh with Hema and Sanjit!",
+          "uid": "9ynmhlmmeng"
+        }
+      ],
+      "ranking": 5
+    },
+    {
+      "name": "Jono",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "description": "Finishing Survey early!",
+          "uid": "mlvxlgjymd"
+        },
+        {
+          "date": "1/15/2023",
+          "description": "Meeting MVP, stellar climbing!",
+          "uid": "tc81ict9o0p"
+        }
+      ],
+      "ranking": 5
+    },
+    {
+      "name": "Deborah",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "description": "Finishing Survey early!",
+          "uid": "0a2wjg1rt8is"
+        },
+        {
+          "date": "12/23/2022",
+          "description": "Uploading your schedules early! Tysm!",
+          "uid": "9y0ukm4w57"
+        }
+      ],
+      "ranking": 5
+    },
+    {
+      "name": "Katherine",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "description": "Finishing Survey early!",
+          "uid": "vtd1ljpnh4"
+        },
+        {
+          "date": "12/24/2022",
+          "description": "Uploading your schedules early! Tysm!",
+          "uid": "mckhx24c9i"
+        } 
+      ],
+      "ranking": 5
+    },
+    {
+      "name": "Hema",
+      "stars": [
+         {
+          "date": "12/24/2022",
+          "description": "Uploading your schedules early! Tysm!",
+          "uid": "hydlikyjadb"
+        },
+        {
+          "date": "1/15/2023",
+          "description": "Meetfresh with Hema and Sanjit!",
+          "uid": "a1ynvo0izrt"
+        }
+      ],
+      "ranking": 5
     },
     {
       "name": "Henry",
@@ -298,7 +313,7 @@
           "uid": "p01tbjlk2ws"
         }
       ],
-      "ranking": 2
+      "ranking": 5
     },
     {
       "name": "Justin",
@@ -309,7 +324,7 @@
           "uid": "rhwc0152jzp"
         }
       ],
-      "ranking": 3
+      "ranking": 12
     },
     {
       "name": "Sonav",
@@ -320,7 +335,7 @@
           "uid": "q9yvbx2o12"
         }
       ],
-      "ranking": 3
+      "ranking": 12
     }
   ]
 }

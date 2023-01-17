@@ -1,6 +1,6 @@
 {
   "name": "star-tracking",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://jason2020.github.io/star-tracking/",
   "private": true,
   "dependencies": {
@@ -33,7 +33,7 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
-    "config": "yarn tsc constants.ts && yarn tsc starConfig.ts && node starConfig.js"
+    "config": "yarn tsc *.ts && node starConfig.js"
   },
   "eslintConfig": {
     "extends": [
