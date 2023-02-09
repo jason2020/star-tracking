@@ -136,30 +136,121 @@
           "date": "1/15/2023",
           "description": "Study session between Shovanne and Ollie",
           "uid": "fzl1ldmdm1a"
+        },
+        {
+          "date": "1/21/2023",
+          "description": "Hot pot with Shovanne and Ollie",
+          "uid": "ci925izmp9e"
+        },
+        {
+          "date": "1/24/2023",
+          "description": "Epic @ Ackerman lunch with Jono, Ollie, and Shovanne",
+          "uid": "ice1gx7bc2"
+        },
+        {
+          "date": "1/30/2023",
+          "description": "Epic @ Ackerman dinner with Jono, Ollie, and Deb",
+          "uid": "ldvcon7a80c"
+        },
+        {
+          "date": "2/1/2023",
+          "description": "Big Noms study session (DOUBLE DONUT)",
+          "uid": "3bid7nvdx9n"
+        },
+        {
+          "date": "2/1/2023",
+          "description": "Big Noms study session (DOUBLE DONUT)",
+          "uid": "8rvdhojuvn3"
         }
       ],
       "ranking": 1
     },
     {
-      "name": "Jonah",
+      "name": "Jono",
       "stars": [
         {
           "date": "12/18/2022",
           "description": "Finishing Survey early!",
-          "uid": "njfotpotnap"
+          "uid": "mlvxlgjymd"
+        },
+        {
+          "date": "1/15/2023",
+          "description": "Meeting MVP, stellar climbing!",
+          "uid": "tc81ict9o0p"
+        },
+        {
+          "date": "1/24/2023",
+          "description": "Epic @ Ackerman lunch with Jono, Ollie, and Shovanne",
+          "uid": "d3yp3e7dx4"
+        },
+        {
+          "date": "1/27/2023",
+          "description": "Millet crepe with Jonah Deborah and Jono (DOUBLE DONUT BONUS) woohoo",
+          "uid": "yfhg5lxuqid"
+        },
+        {
+          "date": "1/27/2023",
+          "description": "Millet crepe with Jonah Deborah and Jono (DOUBLE DONUT BONUS) woohoo",
+          "uid": "mdqa3y4fcjo"
+        },
+        {
+          "date": "1/30/2023",
+          "description": "Epic @ Ackerman dinner with Jono, Ollie, and Deb",
+          "uid": "wh9xm4he2s"
+        },
+        {
+          "date": "2/1/2023",
+          "description": "Big Noms study session (DOUBLE DONUT)",
+          "uid": "c3h6ix4tby"
+        },
+        {
+          "date": "2/1/2023",
+          "description": "Big Noms study session (DOUBLE DONUT)",
+          "uid": "77dfsv9omf9"
+        }
+      ],
+      "ranking": 2
+    },
+    {
+      "name": "Deborah",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "description": "Finishing Survey early!",
+          "uid": "0a2wjg1rt8is"
         },
         {
           "date": "12/23/2022",
           "description": "Uploading your schedules early! Tysm!",
-          "uid": "6g1egczy5s5"
+          "uid": "9y0ukm4w57"
         },
         {
-          "date": "1/15/2023",
-          "description": "Ty for the textbook, very helpful",
-          "uid": "tuwqh83zrn"
+          "date": "1/27/2023",
+          "description": "Millet crepe with Jonah Deborah and Jono (DOUBLE DONUT BONUS) woohoo",
+          "uid": "jjcvfalu5rb"
+        },
+        {
+          "date": "1/27/2023",
+          "description": "Millet crepe with Jonah Deborah and Jono (DOUBLE DONUT BONUS) woohoo",
+          "uid": "nyvusfyth3a"
+        },
+        {
+          "date": "1/30/2023",
+          "description": "Epic @ Ackerman dinner with Jono, Ollie, and Deb",
+          "uid": "6rs0ecy6bqp"
+        },
+        {
+          "date": "2/1/2023",
+          "description": "Big Noms study session (DOUBLE DONUT)",
+          "uid": "srvj3nrcf5"
+        },
+        {
+          "date": "2/1/2023",
+          "description": "Big Noms study session (DOUBLE DONUT)",
+          "uid": "9pdx95oi68q"
         }
       ],
-      "ranking": 2
+      "ranking": 3
     },
     {
       "name": "Cami",
@@ -178,14 +269,34 @@
           "date": "1/17/2023",
           "description": "Scheduling EB meeting. Tetris 2: Electric Boogaloo",
           "uid": "iwb3kv679fq"
+        },
+        {
+          "date": "1/18/2023",
+          "description": "Breakfast at BPlate with Justin and Cami!",
+          "uid": "sgfqas12ekj"
+        },
+        {
+          "date": "1/18/2023",
+          "description": "Meetup 2? Study session with Cami and Justin",
+          "uid": "b7edgvonshl"
+        },
+        {
+          "date": "1/25/2023",
+          "description": "Studying at Sproul lounge with Cami and Justin",
+          "uid": "qfe3tkupr3p"
+        },
+        {
+          "date": "2/3/2023",
+          "description": "Yummy South Indian food with Cami and Hema",
+          "uid": "s82m3t8778p"
         }
       ],
-      "ranking": 2
+      "ranking": 3
     },
     {
       "name": "Jason",
       "stars": [
-         {
+        {
           "date": "12/18/2022",
           "description": "Finishing Survey early!",
           "uid": "vte1ljpnh9"
@@ -199,105 +310,55 @@
           "date": "12/24/2022",
           "description": "Uploading your schedules early! Tysm!",
           "uid": "ngbf9yjdzm"
-        }
-      ],
-      "ranking": 2
-    },
-    {
-      "name": "Shovanne",
-      "stars": [
-        {
-          "date": "12/18/2022",
-          "description": "Finishing Survey early!",
-          "uid": "2d3zcmykobf"
         },
         {
-          "date": "1/15/2023",
-          "description": "Study session between Shovanne and Ollie",
-          "uid": "ofmbpw03f4"
+          "date": "1/21/2023",
+          "description": "BPlate dinner with Jason and Sonav",
+          "uid": "fmslxpvqiwn"
+        },
+        {
+          "date": "2/1/2023",
+          "description": "Big Noms study session (DOUBLE DONUT)",
+          "uid": "gw7ijve08v"
+        },
+        {
+          "date": "2/1/2023",
+          "description": "Big Noms study session (DOUBLE DONUT)",
+          "uid": "yfewjsfpgi"
         }
       ],
       "ranking": 5
     },
     {
-      "name": "Sanjit",
+      "name": "Jonah",
       "stars": [
         {
           "date": "12/18/2022",
           "description": "Finishing Survey early!",
-          "uid": "ib8vygavp7o"
-        },
-        {
-          "date": "1/15/2023",
-          "description": "Meetfresh with Hema and Sanjit!",
-          "uid": "9ynmhlmmeng"
-        }
-      ],
-      "ranking": 5
-    },
-    {
-      "name": "Jono",
-      "stars": [
-        {
-          "date": "12/18/2022",
-          "description": "Finishing Survey early!",
-          "uid": "mlvxlgjymd"
-        },
-        {
-          "date": "1/15/2023",
-          "description": "Meeting MVP, stellar climbing!",
-          "uid": "tc81ict9o0p"
-        }
-      ],
-      "ranking": 5
-    },
-    {
-      "name": "Deborah",
-      "stars": [
-        {
-          "date": "12/18/2022",
-          "description": "Finishing Survey early!",
-          "uid": "0a2wjg1rt8is"
+          "uid": "njfotpotnap"
         },
         {
           "date": "12/23/2022",
           "description": "Uploading your schedules early! Tysm!",
-          "uid": "9y0ukm4w57"
-        }
-      ],
-      "ranking": 5
-    },
-    {
-      "name": "Katherine",
-      "stars": [
-        {
-          "date": "12/18/2022",
-          "description": "Finishing Survey early!",
-          "uid": "vtd1ljpnh4"
-        },
-        {
-          "date": "12/24/2022",
-          "description": "Uploading your schedules early! Tysm!",
-          "uid": "mckhx24c9i"
-        } 
-      ],
-      "ranking": 5
-    },
-    {
-      "name": "Hema",
-      "stars": [
-         {
-          "date": "12/24/2022",
-          "description": "Uploading your schedules early! Tysm!",
-          "uid": "hydlikyjadb"
+          "uid": "6g1egczy5s5"
         },
         {
           "date": "1/15/2023",
-          "description": "Meetfresh with Hema and Sanjit!",
-          "uid": "a1ynvo0izrt"
+          "description": "Ty for the textbook, very helpful",
+          "uid": "tuwqh83zrn"
+        },
+        {
+          "date": "1/27/2023",
+          "description": "Millet crepe with Jonah Deborah and Jono (DOUBLE DONUT BONUS) woohoo",
+          "uid": "aqz0ebflwb6"
+        },
+        {
+          "date": "1/27/2023",
+          "description": "Millet crepe with Jonah Deborah and Jono (DOUBLE DONUT BONUS) woohoo",
+          "uid": "b6ms0vpuonn"
         }
       ],
-      "ranking": 5
+      "ranking": 6
     },
     {
       "name": "Henry",
@@ -311,9 +372,81 @@
           "date": "12/27/2022",
           "description": "Setting up slack with notifications.",
           "uid": "p01tbjlk2ws"
+        },
+        {
+          "date": "1/27/2023",
+          "description": "Valorant games with Henry and Kat",
+          "uid": "qtcowkq7bv"
+        },
+        {
+          "date": "2/1/2023",
+          "description": "Big Noms study session (DOUBLE DONUT)",
+          "uid": "6rjq593044m"
+        },
+        {
+          "date": "2/1/2023",
+          "description": "Big Noms study session (DOUBLE DONUT)",
+          "uid": "uza9kqvetfs"
         }
       ],
-      "ranking": 5
+      "ranking": 6
+    },
+    {
+      "name": "Katherine",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "description": "Finishing Survey early!",
+          "uid": "vtd1ljpnh4"
+        },
+        {
+          "date": "12/24/2022",
+          "description": "Uploading your schedules early! Tysm!",
+          "uid": "mckhx24c9i"
+        },
+        {
+          "date": "1/27/2023",
+          "description": "Valorant games with Henry and Kat",
+          "uid": "1ww09r4oa7a"
+        },
+        {
+          "date": "2/3/2023",
+          "description": "Meatless curry with Jason, Henry, Sanjit and Kat (DOUBLE DONUT)",
+          "uid": "6w4rrde2uai"
+        },
+        {
+          "date": "2/3/2023",
+          "description": "Meatless curry with Jason, Henry, Sanjit and Kat (DOUBLE DONUT)",
+          "uid": "q1kd38tqz8"
+        }
+      ],
+      "ranking": 6
+    },
+    {
+      "name": "Shovanne",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "description": "Finishing Survey early!",
+          "uid": "2d3zcmykobf"
+        },
+        {
+          "date": "1/15/2023",
+          "description": "Study session between Shovanne and Ollie",
+          "uid": "ofmbpw03f4"
+        },
+        {
+          "date": "1/21/2023",
+          "description": "Hot pot with Shovanne and Ollie",
+          "uid": "00857akdl3ifb"
+        },
+        {
+          "date": "1/24/2023",
+          "description": "Epic @ Ackerman lunch with Jono, Ollie, and Shovanne",
+          "uid": "p5fse2krqs"
+        }
+      ],
+      "ranking": 9
     },
     {
       "name": "Justin",
@@ -322,9 +455,50 @@
           "date": "12/18/2022",
           "description": "Finishing Survey early!",
           "uid": "rhwc0152jzp"
+        },
+        {
+          "date": "1/18/2023",
+          "description": "Breakfast at BPlate with Justin and Cami!",
+          "uid": "kd4uy00ltrc"
+        },
+        {
+          "date": "1/18/2023",
+          "description": "Meetup 2? Study session with Cami and Justin",
+          "uid": "4v4e5uq11ds"
+        },
+        {
+          "date": "1/25/2023",
+          "description": "Studying at Sproul lounge with Cami and Justin",
+          "uid": "936d5mu897v"
         }
       ],
-      "ranking": 12
+      "ranking": 9
+    },
+    {
+      "name": "Sanjit",
+      "stars": [
+        {
+          "date": "12/18/2022",
+          "description": "Finishing Survey early!",
+          "uid": "ib8vygavp7o"
+        },
+        {
+          "date": "1/15/2023",
+          "description": "Meetfresh with Hema and Sanjit!",
+          "uid": "9ynmhlmmeng"
+        },
+        {
+          "date": "2/3/2023",
+          "description": "Meatless curry with Jason, Henry, Sanjit and Kat (DOUBLE DONUT)",
+          "uid": "7xuzdz9sxkj"
+        },
+        {
+          "date": "2/3/2023",
+          "description": "Meatless curry with Jason, Henry, Sanjit and Kat (DOUBLE DONUT)",
+          "uid": "m9rds3myj4j"
+        }
+      ],
+      "ranking": 9
     },
     {
       "name": "Sonav",
@@ -333,6 +507,37 @@
           "date": "12/18/2022",
           "description": "Finishing Survey early!",
           "uid": "q9yvbx2o12"
+        },
+        {
+          "date": "1/18/2023",
+          "description": "Amazing website by Sonav! Awesome idea and nice UI",
+          "uid": "441j0klk5nv"
+        },
+        {
+          "date": "1/21/2023",
+          "description": "BPlate dinner with Jason and Sonav",
+          "uid": "xk6ukfzg6ta"
+        }
+      ],
+      "ranking": 12
+    },
+    {
+      "name": "Hema",
+      "stars": [
+        {
+          "date": "12/24/2022",
+          "description": "Uploading your schedules early! Tysm!",
+          "uid": "hydlikyjadb"
+        },
+        {
+          "date": "1/15/2023",
+          "description": "Meetfresh with Hema and Sanjit!",
+          "uid": "a1ynvo0izrt"
+        },
+        {
+          "date": "2/3/2023",
+          "description": "Yummy South Indian food with Cami and Hema",
+          "uid": "61nya7fczhe"
         }
       ],
       "ranking": 12
